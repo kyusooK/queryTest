@@ -15,13 +15,10 @@ import org.springframework.beans.BeanUtils;
 @NoArgsConstructor
 public class ProductDetail {
 
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long companyId;
 
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer productSize;
 
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private String originalCompany;
 }
 //>>> DDD / Value Object

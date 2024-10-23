@@ -24,8 +24,8 @@ public class Inventory {
     @Enumerated(EnumType.STRING)
     private ProductCode productCode;
 
-    @ElementCollection
-    private List<ProductDetail> productDetails;
+    // @ElementCollection
+    // private List<ProductDetail> productDetails;
 
     @Embedded
     private Money money;

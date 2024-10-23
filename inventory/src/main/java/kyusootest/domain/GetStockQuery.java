@@ -1,6 +1,8 @@
 package kyusootest.domain;
 
 import java.util.Date;
+import java.util.List;
+
 import lombok.Data;
 
 @Data
@@ -10,6 +12,6 @@ public class GetStockQuery {
     private Integer stock;
     private String productName;
     private ProductCode productCode;
-    private List&lt;ProductDetail&gt; productDetails;
+    private List<ProductDetail> productDetails;
     private Money money;
 }

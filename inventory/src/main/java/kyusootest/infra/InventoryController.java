@@ -27,8 +27,8 @@ public class InventoryController {
             getStockQuery.getStock(),
             getStockQuery.getProductName(),
             getStockQuery.getProductCode(),
-            getStockQuery.getProductDetails(),
-            getStockQuery.getMoney()
+            getStockQuery.getMoney().getAmount(),
+            getStockQuery.getMoney().getCurrency()
         );
     }
 }
