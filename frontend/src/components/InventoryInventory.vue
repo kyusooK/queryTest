@@ -18,9 +18,7 @@
         <v-card-text style="background-color: white;">
             <Number label="Stock" v-model="value.stock" :editMode="editMode" :inputUI="''"/>
             <String label="ProductName" v-model="value.productName" :editMode="editMode" :inputUI="''"/>
-            <ProductCode offline label="ProductCode" v-model="value.productCode" :editMode="editMode" @change="change"/>
-            <ProductDetailManager offline label="ProductDetails" v-model="value.productDetails" :editMode="editMode" @change="change"/>
-            <Money offline label="Money" v-model="value.money" :editMode="editMode" @change="change"/>
+            <ProductCode offline label="productCode" v-model="value.productCode" :editMode="editMode" @change="change"/>
         </v-card-text>
 
         <v-card-actions style="background-color: white;">
@@ -81,12 +79,10 @@
 <script>
     const axios = require('axios').default;
 
-    import Money from './vo/Money.vue';
 
     export default {
         name: 'InventoryInventory',
         components:{
-            Money,
         },
         props: {
             value: [Object, String, Number, Boolean, Array],

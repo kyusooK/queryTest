@@ -44,8 +44,6 @@
                             
                             
                             
-                            
-                            
                         </v-list-item-title>
 
                         <v-list-item-subtitle style="font-size:25px; font-weight:700;">
@@ -53,8 +51,6 @@
                             [ Stock :  {{data.stock }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ ProductName :  {{data.productName }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ ProductCode :  {{data.productCode }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            [ ProductDetails :  {{data.productDetails }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            [ Money :  {{data.money }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </v-list-item-subtitle>
 
                     </v-list-item-content>
@@ -125,8 +121,6 @@
                 'stock': 0,
                 'productName': '',
                 'productCode': '',
-                'productDetails': [],
-                'money': {},
             }
         },
         methods: {

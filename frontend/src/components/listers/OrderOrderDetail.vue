@@ -14,11 +14,6 @@
             <div>
                 <Number label="Qty" v-model="item.qty" :editMode="editMode" @change="change" />
             </div>
-            <Day offline label="Day" v-model="item.day" :editMode="false" :key="false" @change="change" />
-            <BigDecimal offline label="Asd" v-model="item.asd" :editMode="false" :key="false" @change="change" />
-            <div>
-                <Date label="Asdf" v-model="item.asdf" :editMode="editMode" @change="change" />
-            </div>
         </v-card-text>
 
         <v-card-actions>

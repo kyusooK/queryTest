@@ -12,8 +12,6 @@
                 <String label="ProductName" v-model="item.productName" :editMode="editMode" @change="change" />
             </div>
             <ProductCode offline label="ProductCode" v-model="item.productCode" :editMode="false" :key="false" @change="change" />
-            <ProductDetailManager offline label="ProductDetails" v-model="item.productDetails" :editMode="false" @change="change" />
-            <Money offline label="Money" v-model="item.money" :editMode="false" @change="change" />
         </v-card-text>
 
         <v-card-actions>

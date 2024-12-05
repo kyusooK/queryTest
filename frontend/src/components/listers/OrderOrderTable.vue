@@ -70,9 +70,6 @@
                     { text: "productName", value: "productName" },
                     { text: "productId", value: "productId" },
                     { text: "qty", value: "qty" },
-                    { text: "day", value: "day" },
-                    { text: "asd", value: "asd" },
-                    { text: "asdf", value: "asdf" },
                 ],
             order : [],
             newValue: {},
@@ -93,9 +90,6 @@
                 'productName': '',
                 'productId': '',
                 'qty': 0,
-                'day': '',
-                'asd': '',
-                'asdf': '2024-10-23',
             }
         },
         methods: {

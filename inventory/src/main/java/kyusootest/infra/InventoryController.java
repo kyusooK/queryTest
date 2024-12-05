@@ -19,17 +19,5 @@ public class InventoryController {
 
     @Autowired
     InventoryRepository inventoryRepository;
-
-    @GetMapping(path = "/inventories/getStock")
-    public Inventory getStock(GetStockQuery getStockQuery) {
-        return inventoryRepository.getStock(
-            getStockQuery.getId(),
-            getStockQuery.getStock(),
-            getStockQuery.getProductName(),
-            getStockQuery.getProductCode(),
-            getStockQuery.getProductDetails(),
-            getStockQuery.getMoney()
-        );
-    }
 }
 //>>> Clean Arch / Inbound Adaptor

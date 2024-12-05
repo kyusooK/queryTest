@@ -107,9 +107,6 @@
                 'productName': '',
                 'productId': '',
                 'qty': 0,
-                'day': '',
-                'asd': '',
-                'asdf': '2024-10-23',
             }
         },
         methods:{

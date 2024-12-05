@@ -1,6 +1,5 @@
 package kyusootest.domain;
 
-import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
@@ -23,13 +22,6 @@ public class Order {
     private String productId;
 
     private Integer qty;
-
-    @Enumerated(EnumType.STRING)
-    private Day day;
-
-    private BigDecimal asd;
-
-    private Date asdf;
 
     @PostPersist
     public void onPostPersist() {}

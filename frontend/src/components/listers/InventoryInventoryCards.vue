@@ -107,8 +107,6 @@
                 'stock': 0,
                 'productName': '',
                 'productCode': '',
-                'productDetails': [],
-                'money': {},
             }
         },
         methods:{

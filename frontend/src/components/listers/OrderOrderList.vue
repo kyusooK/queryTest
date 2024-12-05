@@ -44,9 +44,6 @@
                             
                             
                             
-                            
-                            
-                            
                         </v-list-item-title>
 
                         <v-list-item-subtitle style="font-size:25px; font-weight:700;">
@@ -54,9 +51,6 @@
                             [ ProductName :  {{data.productName }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ ProductId :  {{data.productId }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ Qty :  {{data.qty }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            [ Day :  {{data.day }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            [ Asd :  {{data.asd }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            [ Asdf :  {{data.asdf }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </v-list-item-subtitle>
 
                     </v-list-item-content>
@@ -127,9 +121,6 @@
                 'productName': '',
                 'productId': '',
                 'qty': 0,
-                'day': '',
-                'asd': '',
-                'asdf': '2024-10-23',
             }
         },
         methods: {

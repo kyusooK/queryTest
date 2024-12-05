@@ -70,8 +70,6 @@
                     { text: "stock", value: "stock" },
                     { text: "productName", value: "productName" },
                     { text: "productCode", value: "productCode" },
-                    { text: "productDetails", value: "productDetails" },
-                    { text: "money", value: "money" },
                 ],
             inventory : [],
             newValue: {},
@@ -92,8 +90,6 @@
                 'stock': 0,
                 'productName': '',
                 'productCode': '',
-                'productDetails': [],
-                'money': {},
             }
         },
         methods: {

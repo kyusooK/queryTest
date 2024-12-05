@@ -19,9 +19,6 @@
             <String label="ProductName" v-model="value.productName" :editMode="editMode" :inputUI="''"/>
             <String label="ProductId" v-model="value.productId" :editMode="editMode" :inputUI="''"/>
             <Number label="Qty" v-model="value.qty" :editMode="editMode" :inputUI="''"/>
-            <Day offline label="Day" v-model="value.day" :editMode="editMode" @change="change"/>
-            <BigDecimal offline label="Asd" v-model="value.asd" :editMode="editMode" @change="change"/>
-            <Date label="Asdf" v-model="value.asdf" :editMode="editMode" :inputUI="''"/>
         </v-card-text>
 
         <v-card-actions style="background-color: white;">
